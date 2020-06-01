@@ -1,0 +1,53 @@
+.middle{
+    background-image: url('code.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 85vh;
+}
+
+.middleprojects{
+    background-image: url('code.jpeg');
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 85vh;
+}
+
+.col-sm-auto{
+    padding-bottom: 5vw;
+}
+
+body {
+    background-color:#343a40;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: beige;
+}
+
+footer{
+    font-size: 20px;
+    text-align: right;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    color: beige;
+    font-size: 24px;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+  }
